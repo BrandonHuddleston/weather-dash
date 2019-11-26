@@ -1,0 +1,93 @@
+html {
+    height:100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    height:100%;
+}
+
+.header {
+    color: white;
+    background-color:  #343a40;
+    text-align: center;
+    padding: 10px;
+}
+
+.searchbar {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    height: 100%;
+    width: 40%;
+}
+
+.city {
+    margin-top:15px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    border-radius: 5px 0 0 5px;
+    width: 70%;
+}
+
+#city-form {
+    display:flex;
+}
+
+.forecast {
+    margin-left: 10px;
+}
+
+#displaycards {
+    display:flex;
+}
+
+li {
+    font-size: 20px;
+    background-color: white;
+    border-style: solid;
+    border-color: #dfdfdf;
+    border-width: 1px;
+    padding: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.card {
+    background: #007bff;
+    color: white;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.card-text {
+    padding-bottom: 20px
+}
+
+.card-title {
+    padding-bottom: 20px;
+}
+
+.forecastIcon {
+    padding-bottom: 20px;
+}
+
+#uvColor {
+    padding: 5px;
+    background: #dc3545;
+    border-radius: 3px;
+    color: white;
+}
+
+.btn {
+    border-radius: 0 5px 5px 0;
+}
